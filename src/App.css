@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item button {
+  margin-left: 5px;
+}
+
+.task-item input {
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
